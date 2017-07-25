@@ -14,5 +14,11 @@ namespace WCFCrud
         {
             return string.Format("You entered: {0}", value);
         }
+
+        public string GetItem(string itemName)
+        {
+            var item = itemName;
+            return item;
+        }
     }
 }

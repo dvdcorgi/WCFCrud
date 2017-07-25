@@ -13,6 +13,9 @@ namespace WCFCrud
     {
         [OperationContract]
         string GetData(int value);
+
+        [OperationContract]
+        string GetItem(string itemName);
     }
 
 }
